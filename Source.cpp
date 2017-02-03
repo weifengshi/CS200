@@ -1,14 +1,14 @@
 #include <iostream>
+#include<cmath>
 using namespace std;
 
 int main()
 {
-	for (int i = 0; i < 20; i++)
+	int adjusted=0;
+	for (int i = 1; i < 11; i++)
 	{
-		cout << i << " ";
+		adjusted += i;
 	}
-
-	int x;
-	cin >> x;
+	cout << adjusted;
 	return 0;
 }
